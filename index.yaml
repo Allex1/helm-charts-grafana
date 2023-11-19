@@ -490,6 +490,43 @@ entries:
           url: https://github.com/grafana/grafana
     apiVersion: v2
     appVersion: 10.1.5
+    created: "2023-11-19T15:51:02.460852041Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 2368385ee4fca46b6fcb64441dff7f592c812d6b69fd157df0766a59b70045fc
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    keywords:
+    - monitoring
+    - metric
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    - https://github.com/grafana/helm-charts
+    type: application
+    urls:
+    - https://github.com/Allex1/helm-charts-grafana/releases/download/grafana-7.0.7/grafana-7.0.7.tgz
+    version: 7.0.7
+  - annotations:
+      artifacthub.io/license: AGPL-3.0-only
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/grafana/helm-charts
+        - name: Upstream Project
+          url: https://github.com/grafana/grafana
+    apiVersion: v2
+    appVersion: 10.1.5
     created: "2023-11-08T09:00:31.865144174Z"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: a622192149ee09dcb50b40641921e7ae20f31c8a75668309215f07b4b76eeac8
@@ -13337,6 +13374,18 @@ entries:
     version: 0.6.0
   rollout-operator:
   - apiVersion: v2
+    appVersion: v0.9.0
+    created: "2023-11-19T15:51:02.583747712Z"
+    description: Grafana rollout-operator
+    digest: a4061d006c9d03aca22a5b78922640a5d13aee86fae8f83d997a2a2718481b62
+    home: https://github.com/grafana/rollout-operator
+    kubeVersion: ^1.10.0-0
+    name: rollout-operator
+    type: application
+    urls:
+    - https://github.com/Allex1/helm-charts-grafana/releases/download/rollout-operator-0.10.0/rollout-operator-0.10.0.tgz
+    version: 0.10.0
+  - apiVersion: v2
     appVersion: v0.8.3
     created: "2023-11-08T08:53:42.481097821Z"
     description: Grafana rollout-operator
@@ -13388,6 +13437,29 @@ entries:
     - https://github.com/Allex1/helm-charts-grafana/releases/download/synthetic-monitoring-agent-0.2.0/synthetic-monitoring-agent-0.2.0.tgz
     version: 0.2.0
   tempo:
+  - apiVersion: v2
+    appVersion: 2.3.0
+    created: "2023-11-19T15:51:02.783162807Z"
+    description: Grafana Tempo Single Binary Mode
+    digest: a454c3827bff8398f7a9d706baeef40c87969ba858aba90b5864bd9b8ae946cf
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/tempo/master/docs/tempo/website/logo_and_name.png
+    maintainers:
+    - email: number101010@gmail.com
+      name: joe-elliott
+    - email: 9215868@gmail.com
+      name: swartz-k
+    - name: annanay25
+    - name: mdisibio
+    - name: dgzlopes
+    - name: mapno
+    name: tempo
+    sources:
+    - https://github.com/grafana/tempo
+    type: application
+    urls:
+    - https://github.com/Allex1/helm-charts-grafana/releases/download/tempo-1.7.1/tempo-1.7.1.tgz
+    version: 1.7.1
   - apiVersion: v2
     appVersion: 2.3.0
     created: "2023-11-08T08:53:43.17002011Z"
@@ -13808,4 +13880,4 @@ entries:
     urls:
     - https://github.com/Allex1/helm-charts-grafana/releases/download/tempo-vulture-0.4.1/tempo-vulture-0.4.1.tgz
     version: 0.4.1
-generated: "2023-11-08T09:00:31.867103715Z"
+generated: "2023-11-19T15:51:02.784316678Z"

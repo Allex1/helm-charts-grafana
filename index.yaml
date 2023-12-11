@@ -489,6 +489,43 @@ entries:
         - name: Upstream Project
           url: https://github.com/grafana/grafana
     apiVersion: v2
+    appVersion: 10.2.2
+    created: "2023-12-11T09:23:08.333874237Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: edd5be554a059e00c8e74128640ff7c7d689c373e6a3c459e88d8a18a48ffba5
+    home: https://grafana.com
+    icon: https://artifacthub.io/image/b4fed1a7-6c8f-4945-b99d-096efa3e4116
+    keywords:
+    - monitoring
+    - metric
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    - https://github.com/grafana/helm-charts
+    type: application
+    urls:
+    - https://github.com/Allex1/helm-charts-grafana/releases/download/grafana-7.0.14/grafana-7.0.14.tgz
+    version: 7.0.14
+  - annotations:
+      artifacthub.io/license: AGPL-3.0-only
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/grafana/helm-charts
+        - name: Upstream Project
+          url: https://github.com/grafana/grafana
+    apiVersion: v2
     appVersion: 10.1.5
     created: "2023-11-29T10:07:09.199893136Z"
     description: The leading tool for querying and visualizing time series and metrics.
@@ -7405,6 +7442,23 @@ entries:
     version: 0.2.0
   grafana-agent-operator:
   - apiVersion: v2
+    appVersion: 0.38.1
+    created: "2023-12-11T09:23:08.585442573Z"
+    description: A Helm chart for Grafana Agent Operator
+    digest: 19b2e86efe99df2e9cc4a27157af721ef5352991811240598f9a459b3129ace9
+    home: https://grafana.com/docs/agent/v0.38/
+    icon: https://raw.githubusercontent.com/grafana/agent/v0.38.0/docs/sources/assets/logo_and_name.png
+    maintainers:
+    - email: grafana-agent-team@googlegroups.com
+      name: Grafana Agent Team
+    name: grafana-agent-operator
+    sources:
+    - https://github.com/grafana/agent/tree/v0.38.0/pkg/operator
+    type: application
+    urls:
+    - https://github.com/Allex1/helm-charts-grafana/releases/download/grafana-agent-operator-0.3.12/grafana-agent-operator-0.3.12.tgz
+    version: 0.3.12
+  - apiVersion: v2
     appVersion: 0.38.0
     created: "2023-11-23T07:24:50.95031566Z"
     description: A Helm chart for Grafana Agent Operator
@@ -8571,6 +8625,24 @@ entries:
     - https://github.com/grafana/helm-charts/releases/download/loki-canary-0.1.2/loki-canary-0.1.2.tgz
     version: 0.1.2
   loki-distributed:
+  - apiVersion: v2
+    appVersion: 2.9.2
+    created: "2023-12-11T09:23:08.831085431Z"
+    description: Helm chart for Grafana Loki in microservices mode
+    digest: 5c78f3d541e60f35786d164761707c9d255b3f38af66dccab9e09f3d93b797f7
+    home: https://grafana.github.io/helm-charts
+    icon: https://grafana.com/docs/loki/latest/logo_and_name.png
+    maintainers:
+    - name: unguiculus
+    name: loki-distributed
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    type: application
+    urls:
+    - https://github.com/Allex1/helm-charts-grafana/releases/download/loki-distributed-0.77.0/loki-distributed-0.77.0.tgz
+    version: 0.77.0
   - apiVersion: v2
     appVersion: 2.9.2
     created: "2023-11-08T08:53:41.84699159Z"
@@ -14007,4 +14079,4 @@ entries:
     urls:
     - https://github.com/Allex1/helm-charts-grafana/releases/download/tempo-vulture-0.4.1/tempo-vulture-0.4.1.tgz
     version: 0.4.1
-generated: "2023-11-29T10:07:09.201031071Z"
+generated: "2023-12-11T09:23:08.832208674Z"
